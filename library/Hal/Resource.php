@@ -61,7 +61,7 @@ class Resource extends AbstractHal
     protected $jsonNumericCheck = self::JSON_NUMERIC_CHECK_OFF;
     /**
      *
-     * @param string $href
+	 * @param string|\Hal\Link $href
      * @param array $data
      * @param string|null $title
      * @param string|null $name
